@@ -5,10 +5,10 @@ public class RunValidator
     public static void BeginExec()
     {
         //Get file path
-        //String path = FileLocator.ClientFilePath();
+        String path = FileLocator.ClientFilePath();
 
         //Read data from file
-        DataReader.ReadData("C:\\Users\\Pro-Music\\Downloads\\SampleCSVFile_2kb.csv");
+        DataReader.ReadData(path);
 
         System.out.printf("%n===[Client Keys]===%n");
 
