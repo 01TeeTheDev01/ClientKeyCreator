@@ -1,4 +1,4 @@
-package services;
+package com.services;
 
 import com.model.Client;
 

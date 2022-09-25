@@ -1,4 +1,4 @@
-package services;
+package com.services;
 
 import java.util.Arrays;
 import java.util.Scanner;

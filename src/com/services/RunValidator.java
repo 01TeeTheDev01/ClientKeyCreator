@@ -1,6 +1,4 @@
-package services;
-
-import java.util.Collections;
+package com.services;
 
 public class RunValidator
 {

@@ -1,10 +1,9 @@
-package services;
+package com.services;
 
 import com.model.Client;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Enumeration;
 
 public class MockData
 {

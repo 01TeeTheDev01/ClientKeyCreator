@@ -1,10 +1,9 @@
-package services;
+package com.services;
 
 import com.model.Client;
 
 import java.time.LocalDateTime;
 import java.time.Period;
-import java.time.temporal.TemporalAmount;
 import java.util.Arrays;
 
 public class Calculator {
