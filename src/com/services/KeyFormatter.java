@@ -12,16 +12,15 @@ public class KeyFormatter
 
         try
         {
-            if (client.getFirstName().length() > 0)
+            if (!client.getFirstName().isEmpty())
                 tempFirst = client.getFirstName().substring(0, 1);
 
             if (client.getMiddleName() != null)
                 tempMiddle = client.getMiddleName().substring(0, 1);
 
-            if (client.getLastName().length() > 0 &&
-                    client.getLastName().length() < 5)
+            if (!client.getLastName().isEmpty() && client.getLastName().length() < 5)
             {
-                tempLast = client.getLastName().substring(0, client.getLastName().length()) + "....";
+                tempLast = client.getLastName() + "....";
                 shortLastName = tempLast.substring(0, 5);
                 tempLast = shortLastName;
             }

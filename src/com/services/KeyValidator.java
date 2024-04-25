@@ -35,7 +35,7 @@ public class KeyValidator
                             int duplicateVal = Integer.parseInt(splitVal[1]);
                             splitVal[1] = String.valueOf(++duplicateVal);
 
-                            //Append duplcate count to client key
+                            //Append duplicate count to client key
                             MockData.GetClientKeys().get(nextClientIndex).setUniqueKey(String.join("-", splitVal));
                         }
                     }

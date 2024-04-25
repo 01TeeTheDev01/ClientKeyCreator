@@ -19,7 +19,7 @@ public class MockData
         }
         catch (Exception e)
         {
-            System.out.printf("%nError occured%n");
+            System.out.printf("%nError occurred%n");
             System.out.printf("%nMessage -> Failed to initialize list.");
             System.out.printf("%n%nStackTrace%n%n%s%n%n", Arrays.deepToString(e.getStackTrace()));
         }
